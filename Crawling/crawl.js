@@ -143,6 +143,7 @@ puppeteer.launch({headless: false}).then(async browser => {
 
   // Close Browser Window
   await browser.close();
+  
 
   //Write results.json File With Object Data Collected Above
   let obj = {
